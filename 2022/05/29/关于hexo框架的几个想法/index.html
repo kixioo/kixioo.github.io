@@ -16,25 +16,24 @@
   <meta name="author" content="罗登">
   <meta name="keywords" content="">
   
-    <meta name="description" content="图片分享测试">
+    <meta name="description" content="hexo*** 用这个写东西需要markdown的语法 ***  跟着csdn上的教程捣鼓了很久，在过程中也遇到了许多问题，大多数问题都是关于hexo的，因为一开始玩这个东西的时候根本就不知道背后的（即使是最浅层的）逻辑是什么，只有一点点前端的知识，所以说现在能够正确的解决一些配置问题，甚至像现在一样能够正式的写一点东西，对于我来说，着实是一个很大的进步。  看了不少帖子，东拼西凑出几个模糊的概念">
 <meta property="og:type" content="article">
-<meta property="og:title" content="‘分享’">
-<meta property="og:url" content="http://example.com/2022/05/28/%E2%80%98%E5%88%86%E4%BA%AB%E2%80%99/index.html">
+<meta property="og:title" content="关于hexo框架的几个想法">
+<meta property="og:url" content="http://example.com/2022/05/29/%E5%85%B3%E4%BA%8Ehexo%E6%A1%86%E6%9E%B6%E7%9A%84%E5%87%A0%E4%B8%AA%E6%83%B3%E6%B3%95/index.html">
 <meta property="og:site_name" content="D的人间小屋">
-<meta property="og:description" content="图片分享测试">
+<meta property="og:description" content="hexo*** 用这个写东西需要markdown的语法 ***  跟着csdn上的教程捣鼓了很久，在过程中也遇到了许多问题，大多数问题都是关于hexo的，因为一开始玩这个东西的时候根本就不知道背后的（即使是最浅层的）逻辑是什么，只有一点点前端的知识，所以说现在能够正确的解决一些配置问题，甚至像现在一样能够正式的写一点东西，对于我来说，着实是一个很大的进步。  看了不少帖子，东拼西凑出几个模糊的概念">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/img/a.jpg">
-<meta property="article:published_time" content="2022-05-28T07:55:12.000Z">
-<meta property="article:modified_time" content="2022-05-28T07:57:04.593Z">
+<meta property="article:published_time" content="2022-05-29T03:17:03.000Z">
+<meta property="article:modified_time" content="2022-05-29T04:00:18.481Z">
 <meta property="article:author" content="罗登">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/img/a.jpg">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>‘分享’ - D的人间小屋</title>
+  <title>关于hexo框架的几个想法 - D的人间小屋</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -209,7 +208,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="‘分享’"></span>
+            <span id="subtitle" data-typed-text="关于hexo框架的几个想法"></span>
           
         </div>
 
@@ -220,8 +219,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-05-28 15:55" pubdate>
-          2022年5月28日 下午
+        <time datetime="2022-05-29 11:17" pubdate>
+          2022年5月29日 上午
         </time>
       </span>
     
@@ -232,7 +231,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          6 字
+          1.1k 字
         
       </span>
     
@@ -243,7 +242,7 @@
         
         
         
-          1 分钟
+          10 分钟
         
       </span>
     
@@ -289,11 +288,30 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">‘分享’</h1>
+            <h1 style="display: none">关于hexo框架的几个想法</h1>
             
             <div class="markdown-body">
               
-              <p>图片分享测试<br><img src="/img/a.jpg" srcset="/img/loading.gif" lazyload alt="q"></p>
+              <h1 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h1><p>*** 用这个写东西需要markdown的语法 ***</p>
+<hr>
+<p>跟着csdn上的教程捣鼓了很久，在过程中也遇到了许多问题，大多数问题都是关于hexo的，因为一开始玩这个东西的时候根本就不知道背后的（即使是最浅层的）逻辑是什么，只有一点点前端的知识，所以说现在能够正确的解决一些配置问题，甚至像现在一样能够正式的写一点东西，对于我来说，着实是一个很大的进步。</p>
+<hr>
+<p>看了不少帖子，东拼西凑出几个模糊的概念，让我初识了这个令人愉悦的框架hexo，里面这么多开源的主题、贴心的配置文件真的让人深感振奋，虽然用的基本上都是别人的作品，但是能够玩一玩也是非常令人兴奋的。</p>
+<hr>
+<p>下面说说我对于hexo框架的粗浅认识。首先，Hexo是一款基于Node.js的静态博客框架，可以方便的生成静态网页托管在GitHub和Coding上，是搭建博客的首选框架。</p>
+<hr>
+<p>通过hexo指令，在source文件夹里面创建自己网站的页面（page），或者发一发博客（post），会自己创建.md文件（markdown标记语言），.md文件通过渲染自动且快速生成了.html（根据自己主题的不同 会有不同形式的html页面），对于个人博客的开发是极其轻便容易的。下面说一说几个常见的命令</p>
+<hr>
+<p><code>hexo -clean 清楚之前所有的缓存文件 据我观察是清除本地文件夹中的public文件夹  目的：更新或者重新部署配置</code></p>
+<p><code> hexo -g 渲染本地的source文件（通过渲染其中的.md文件 生成新的html 保存在新的public中）</code></p>
+<p><code>hexo -s 将新的网页在本地端口打开</code></p>
+<p><code>hexo -d 上传至服务器</code></p>
+<hr>
+<p>说一说让我之前感到痛苦的一些东西。在一开始我完全没有理解到这个hexo是怎么运作的，我就盲目的在生成的public文件夹里面对一些页面进行修改，修改满意后我依旧执行 hexo -clean操作，所以就造成我的页面每次都无法真正修改到我想让它变成的样子。现在我知道要修改页面的一些共有属性，得去主题的配置文件中找到所对应的配置信息进行修改。</p>
+<p>另外一个问题是关于发布不了带有图片的帖子，网上各种办法试了很久，都没有解决问题，不过在我知道hexo通过渲染source文件生成public文件之后，我到public文件中发现里面存在一个img文件，里面有主题所引用的图片，我就尝试着在source文件里创建了一个img文件，把我想要发布的图片放在里面，然后在.md文件里通过相对路径引用（因为渲染后会到public里面去，所以相对路径应该是.&#x2F;img&#x2F;xxx.png），总之，明白hexo运作的的大致机制后，就比较好处理一些问题了。</p>
+<hr>
+<p>今天的分享就到这儿了 以后想到什么就再聊</p>
+<p>ps：不会用markdown，所以格式上来说草率了一点，有空再学一学这个文本语言</p>
 
               
             </div>
@@ -301,6 +319,13 @@
             <div>
               <div class="post-metas my-3">
   
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/hexo/">#hexo</a>
+      
+    </div>
   
 </div>
 
@@ -310,8 +335,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>‘分享’</div>
-      <div>http://example.com/2022/05/28/‘分享’/</div>
+      <div>关于hexo框架的几个想法</div>
+      <div>http://example.com/2022/05/29/关于hexo框架的几个想法/</div>
     </div>
     <div class="license-meta">
       
@@ -323,7 +348,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年5月28日</div>
+          <div>2022年5月29日</div>
         </div>
       
       
@@ -353,18 +378,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/05/29/%E5%85%B3%E4%BA%8Ehexo%E6%A1%86%E6%9E%B6%E7%9A%84%E5%87%A0%E4%B8%AA%E6%83%B3%E6%B3%95/" title="关于hexo框架的几个想法">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">关于hexo框架的几个想法</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/05/28/hello-world/" title="Hello World">
-                        <span class="hidden-mobile">Hello World</span>
+                      <a href="/2022/05/28/%E2%80%98%E5%88%86%E4%BA%AB%E2%80%99/" title="‘分享’">
+                        <span class="hidden-mobile">‘分享’</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
